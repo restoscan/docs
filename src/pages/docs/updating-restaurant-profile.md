@@ -1,13 +1,13 @@
 ---
-title: How to contribute
-description: Quidem magni aut exercitationem maxime rerum eos.
+title: Updating restaurant profile
+description: Understanding sections in restaurant profile
 ---
 
 Quasi sapiente voluptates aut minima non doloribus similique quisquam. In quo expedita ipsum nostrum corrupti incidunt. Et aut eligendi ea perferendis.
 
 ---
 
-## Quis vel iste dicta
+## What do your customers see?
 
 Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
 
@@ -36,7 +36,7 @@ Voluptas beatae omnis omnis voluptas. Cum architecto ab sit ad eaque quas quia d
 
 ---
 
-## Quos porro ut molestiae
+## Recommended setup
 
 Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
 

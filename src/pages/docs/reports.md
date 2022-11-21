@@ -1,6 +1,6 @@
 ---
-title: Architecture guide
-description: Quidem magni aut exercitationem maxime rerum eos.
+title: Reports
+description: Different types of reports in Restoscan.
 ---
 
 Quasi sapiente voluptates aut minima non doloribus similique quisquam. In quo expedita ipsum nostrum corrupti incidunt. Et aut eligendi ea perferendis.
