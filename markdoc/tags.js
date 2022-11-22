@@ -1,4 +1,5 @@
 import { Callout } from '@/components/Callout'
+import NewTabLink from '@/components/NewTabLink'
 import { QuickLink, QuickLinks } from '@/components/QuickLinks'
 
 const tags = {
@@ -28,6 +29,14 @@ const tags = {
         <figcaption>{caption}</figcaption>
       </figure>
     ),
+  },
+  'new-tab-link': {
+    attributes: {
+      text: { type: String },
+      href: { type: String },
+    },
+    selfClosing: true,
+    render: NewTabLink,
   },
   'quick-links': {
     render: QuickLinks,
