@@ -55,9 +55,9 @@ export function Hero() {
                 Restaurant management made simple for everyone.
               </p>
               <div className="mt-8 flex gap-4 md:justify-center lg:justify-start">
-                <Button href="/">Get started</Button>
-                <Button href="/" variant="secondary">
-                  View on GitHub
+                <Button href="https://restoscan.in">Go to website</Button>
+                <Button href="https://app.restoscan.in" variant="secondary">
+                  Go to app
                 </Button>
               </div>
             </div>
@@ -87,7 +87,7 @@ export function Hero() {
               />
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-tr from-sky-300 via-sky-300/70 to-blue-300 opacity-10 blur-lg" />
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-tr from-sky-300 via-sky-300/70 to-blue-300 opacity-10" />
-              <div className="relative rounded-2xl bg-[#0A101F]/80 ring-1 ring-white/10 backdrop-blur">
+              {/* <div className="relative rounded-2xl bg-[#0A101F]/80 ring-1 ring-white/10 backdrop-blur">
                 <div className="absolute -top-px left-20 right-11 h-px bg-gradient-to-r from-sky-300/0 via-sky-300/70 to-sky-300/0" />
                 <div className="absolute -bottom-px left-11 right-20 h-px bg-gradient-to-r from-blue-400/0 via-blue-400 to-blue-400/0" />
                 <div className="pl-4 pt-4">
@@ -165,7 +165,7 @@ export function Hero() {
                     </Highlight>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
