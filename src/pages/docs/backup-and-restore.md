@@ -3,35 +3,23 @@ title: Backup and restore
 description: Restoscan loves spreadsheets!
 ---
 
-Quasi sapiente voluptates aut minima non doloribus similique quisquam. In quo expedita ipsum nostrum corrupti incidunt. Et aut eligendi ea perferendis.
+Although this is a cloud offering with 99.9% uptime, we understand that you might need to backup your data. Also, we feel confident about our product and do not want to lock you in. 
+This feature can also be used for cloning a restaurant.
+In this section we will go over how you can create a backup of data for a restaurant and use a backup to update information about another restaurant.
 
 ---
 
-## Backup and restore
+## How to create a backup?
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
+1. Navigate to restaurant settings
+2. Select the general tab
+3. Click on create backup, selecting the data you wish to include in the backup
 
-### Menu
+## How to restore data using a backup?
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
-
-```js
-/** @type {import('@tailwindlabs/lorem').ipsum} */
-export default {
-  lorem: 'ipsum',
-  dolor: ['sit', 'amet', 'consectetur'],
-  adipiscing: {
-    elit: true,
-  },
-}
-```
-
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
-
-### Discounts
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
-
-### Taxes
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
+1. Navigate to restaurant settings
+2. Select the general tab
+3. Click on restore data using a backup
+4. Select the file you wish to use for restoration
+5. Select the data you wish to sync using the backup file
+6. Click on proceed

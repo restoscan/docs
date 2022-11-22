@@ -3,67 +3,82 @@ title: Life-cycle of an order
 description: Managing order like a pro!
 ---
 
-Quasi sapiente voluptates aut minima non doloribus similique quisquam. In quo expedita ipsum nostrum corrupti incidunt. Et aut eligendi ea perferendis.
+In order to effectively use restoscan, you must understand different 
+- types of order
+- states of an order 
 
 ---
 
 ## Types of orders
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
+Restoscan supports 2 types of orders and shows them seperately on the orders screen for easy management. These types are:
+- take-away orders
+- dine-in orders
 
 ### Take-away orders
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
+Any orders created without a table assignment are considered take-away orders. 
 
-```js
-/** @type {import('@tailwindlabs/lorem').ipsum} */
-export default {
-  lorem: 'ipsum',
-  dolor: ['sit', 'amet', 'consectetur'],
-  adipiscing: {
-    elit: true,
-  },
-}
-```
 ### Dine-in orders
 
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
+Any orders created with a table assignment are considered as dine-in orders.
 
 ### Switching between the two
 
-zzz
+You can switch between the two. For example, let's say one customer ordered a take-away, then wishes to sit on a table after receiving the order. You can assign a table to the customer using the take-away order. This we you can convert a take-away to a dine-in.
+You can also mark a dine-in order as take-away. This might help in scenarios where you are rushed and need to clear a table asap.
+
+#### Assigning a take-away order to a table
+
+#### Marking a dine-in order as take-away
 
 ---
 
-## Managing orders
+## Managing order states
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
+We know that it's vital to monitor changes in order status to ensure a great customer experience. Therefore, the dashboard is designed to indicate the number of orders in each state.
+There are 2 types of order states:
+- Payment states (paid, or unpaid)
+- Preparation states (pending confirmation, being prepared, served, or cancelled)
+
 
 ### Take an order
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
+1. Navigate to restaurant dashboard
+2. Click on orders page (this is the default tab when you navigate to restaurant dashboard).
+   From this page you can create take-away and dine-in orders (if you have a table).
+3. Click on cart/new order button of the widget for which you want to create the order.
+4. Select items for the order
+5. Select discount codes you want to apply, if any.
+6. Enter a customer discount you want to offer for this customer, if any.
+7. Select whether this order is paid or not. Select mode of payment if the order is paid.
+8. Click on create order button
 
-Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.
+Now you must be back on the order tab in restaurant dashboard.
 
-### Mark an order as served
+### Changing order states
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
+You can manage orders table-wise. Each table you create is visible on the orders tab in restaurant dashboard. For dine-in orders, click the manage button for the table you want to manage. For take-away orders, click the manage button on that take-away order widget located at the top of the orders page. Once you are on the management page
 
-### Mark an order as paid
+#### Mark an order as served
 
-Voluptas beatae omnis omnis voluptas. Cum architecto ab sit ad eaque quas quia distinctio. Molestiae aperiam qui quis deleniti soluta quia qui. Dolores nostrum blanditiis libero optio id. Mollitia ad et asperiores quas saepe alias.
+1. Click on the 3-dot menu button for the order you want to mark as served
+2. Click on mark as served button
 
-### Cancel an order
+#### Mark an order as paid
 
-zzz
+1. Click on the 3-dot menu button for the order you want to mark as served
+2. Click on mark as paid button, this will open up a modal
+3. Select the mode of payment, and click mark as paid button
+
+#### Cancel an order
+
+1. Click on the 3-dot menu button for the order you want to mark as cancelled
+2. Click on mark as paid button, this will open up a modal
+3. Select the mode of payment, and click mark as paid button
 
 ---
 
-## Understanding where you are lacking 
-
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.
-
 ### Order cancellation reports
 
-Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.
-
+We have also implemented an optional feature which ensures that a reason and time is specified with each order cancellation. This is to ensure the transparency and for better customer feedback tracking.
