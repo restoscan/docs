@@ -24,12 +24,20 @@ const navigation = [
       { title: 'Lifecycle of an orders', href: '/docs/lifecycle-of-an-order' },
       { title: 'Configuring discounts', href: '/docs/configuring-discounts' },
       {
+        title: 'Tax Rates',
+        href: '/docs/tax-rates',
+      },
+      {
         title: 'Updating restaurant profile',
         href: '/docs/updating-restaurant-profile',
       },
       {
-        title: 'Periodic and on-demand reports',
-        href: '/docs/periodic-and-on-demand-reports',
+        title: 'Reports',
+        href: '/docs/reports',
+      },
+      {
+        title: 'Menu management',
+        href: '/docs/menu-management',
       },
       {
         title: 'Backup and restore',
