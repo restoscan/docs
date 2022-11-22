@@ -18,7 +18,7 @@ Restoscan has 3 types of discount codes:
 - percentage (Flat 10% off)
 - percentage with a ceiling (10% off upto Rs.10/-)
 
-Each discount code has a description where you can specify terms and conditions for the discount (visible by the user).
+Each discount code has a description where you can specify terms and conditions for the discount (visible to the user).
 
 
 ---
